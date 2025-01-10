@@ -1,0 +1,61 @@
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 714px;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+
+.control-panel__groupe {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.control-panel__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.control-panel__texture {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.control-panel__texture input[ type=number ] {
+    width: 50px;
+}
+
+.control-panel__input {
+    display: flex;
+}
+
+.control-panel__input input[type=number] {
+    width: 80px;
+}
+
+.control-panel__input-groupe {
+    display: flex;
+}
+
+.control-panel__repeat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.control-panel__color-picker {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.repeat-x {
+    margin-right: 30px;
+}

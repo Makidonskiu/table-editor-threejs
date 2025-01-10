@@ -1,0 +1,8 @@
+canvas {
+    height: 100% !important;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh
+}

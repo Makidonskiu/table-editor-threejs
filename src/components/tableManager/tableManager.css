@@ -1,0 +1,15 @@
+.table-manager__btns {
+    display: flex;
+    gap: 50px;
+}
+
+.table-manager__btn {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.save {
+    background-color: rgb(30, 172, 30);
+    color: aliceblue;
+    border: none;
+}
