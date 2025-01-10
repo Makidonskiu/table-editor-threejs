@@ -30,9 +30,6 @@ interface iPropsTable {
 export const Table: React.FC<iPropsTable> = ({ counterTop, counterLegs }) => {
   const gltf = useGLTF(counterLegs.style === "square" ? "/table-editor-threejs/model/table_square.gltf" : "/table-editor-threejs/model/table_round.gltf");
   const { scene, materials } = gltf;
-console.log(materials);
-
-  
   
   useEffect(() => {
     if (!scene || !materials) return;
